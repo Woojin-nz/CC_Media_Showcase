@@ -1,0 +1,96 @@
+/* affects bullets points */
+ul, .dropdown{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+    display: flex;
+
+
+}
+
+ul li {
+    width: 100%;
+    position: relative;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.dropdown {
+    position: absolute;
+
+    width: 100%;
+    flex-wrap: wrap;
+    visibility: hidden;
+    transition: 0.3s;
+    left: 0;
+    z-index: 1;
+    background-color: rgb(220, 220, 243);
+}
+
+ul li:hover .dropdown{
+    visibility: visible;
+}
+
+.menu-header {
+    display:block;
+}
+
+.fa-bars {
+    display: none;
+}
+
+@media(max-width: 767px){
+
+    ul{
+        display:table;
+        width:100%;
+    }
+
+    ul li {
+        text-align: left;
+    }
+
+    .dropdown {
+        position: relative;
+        padding-left: 20px;
+        width: auto;
+        left: 0;
+        top: 0;
+        transition: none;
+        visibility: visible;
+        display: none;
+        z-index: 1;
+
+    }
+
+    .display{
+        display: block;
+        }
+
+    .menu-content {
+        display: none;
+    }
+
+    .menu-header{
+            text-align: right;
+            padding: 10px;
+            display: block;
+        }
+
+        .fa-bars {
+            color: black;
+            display: inline;
+            border: 1px solid rgb(20, 20, 22);
+            padding: 5px 10px;
+            border-radius: 3px;
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+}
