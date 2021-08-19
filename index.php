@@ -33,7 +33,7 @@
     
 
     <div class="logo">
-                <a href="index.php"><img class="responsive" src="images/background_UNESCO.png" alt="s" /></a>
+                <a href="index.php"><img class="responsive" src="images/background_UNESCO.png" alt="s"  /></a>
             </div>
 
             <div class="top-title">
