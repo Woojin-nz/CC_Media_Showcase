@@ -1,4 +1,8 @@
 <!DOCTYPE HTML>
+<?php
+    include("functions.php");
+
+?>
 
 <html lang="en">
 
@@ -16,6 +20,8 @@
 
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/simple-lightbox.css"> 
+    <link rel="stylesheet" href="css/gallery.css">
+
 
     <!-- Edit the name of your style sheet - 'foo' is not a valid name!! -->
     <link rel="stylesheet" href="css/layout.css"> 
@@ -47,25 +53,25 @@
 
             <div class="menu-content">
                 <ul>
-                    <li><a href='index.php'>Home</a></li>
-                    <li><a href='#'>Random</a></li>
-                    <li><a class="dropbtn" href='#'>Gallery <i class="fa fa-chevron-down"></i></a>
+                    <li><a class="nav" href='index.php'>Home</a></li>
+                    <li><a class="nav" href='#'>Random</a></li>
+                    <li><a class="nav dropbtn" href='#'>Gallery <i class="fa fa-chevron-down"></i></a>
                         <ul class="dropdown">
-                            <li><a href="#">Africa</a></li>
-                            <li><a href="#">Asia</a></li>
-                            <li><a href="#">Europe</a></li>
-                            <li><a href="#">North America</a></li>
-                            <li><a href="#">Oceania</a></li>
-                            <li><a href="#">South America</a></li>
+                            <li><a class="nav" href="index.php?page=africa">Africa</a></li>
+                            <li><a class="nav" href="index.php?page=asia">Asia</a></li>
+                            <li><a class="nav" href="#">Europe</a></li>
+                            <li><a class="nav" href="#">North America</a></li>
+                            <li><a class="nav" href="#">Oceania</a></li>
+                            <li><a class="nav" href="#">South America</a></li>
 
                         
                         </ul>
                     
                     
                     </li>
-                    <li><a href='index.php?page=links'>Links</a></li>
-                    <li><a href='#'>UNESCO</a></li>
-                    <li><a href='#'>Contact</a></li>
+                    <li><a class="nav" href='index.php?page=links'>Links</a></li>
+                    <li><a class="nav" href='#'>UNESCO</a></li>
+                    <li><a class="nav" href='#'>Contact</a></li>
 
                 </ul>
 
@@ -108,5 +114,12 @@
 
 </script>
 
+<script src="js\simple-lightbox.min.js"></script>
+
+<script>
+    (function() {
+        var $gallery = new SimpleLightbox('.gallery a', {});
+    })();
+</script>
 
 </body>        
