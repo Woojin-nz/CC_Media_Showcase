@@ -41,6 +41,13 @@ ul li:hover .dropdown{
     display:block;
 }
 
+
+.menu-footer{
+    display: grid;
+    width: inherit;
+    padding-bottom: 10px;
+    margin: 6px 0 10px 0;
+}
 .fa-bars {
     display: none;
 }

@@ -11,10 +11,10 @@ body {
 
 .wrapper {
     display: grid;
-    grid-template-columns: 100px 1fr 2fr;
+    grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: auto;
     grid-template-areas: 
-        "logo top-title header"
+        "top-title logo header"
         "main main main"
         "footer footer footer";
         grid-gap: 0px;
@@ -57,6 +57,7 @@ body {
 
 .footer {
     grid-area: footer;
+    
     text-align: right;
 }
 
@@ -99,15 +100,17 @@ ul.text {
 }
 
 /* Navigation Links */
-.nav a {font-weight: bold;}
-.nav a:link, .nav a:visited {color: #AA0000;} /*dark red */
-.nav a:hover {color: #604830; text-decoration: none;} /* chocolate brown */
+a {color:#FF0000;}         /* Unvisited link  */
+a:visited {color:#00FF00;} /* Visited link    */
+a:hover {color:#FF00FF;}   /* Mouse over link */
+a:active {color:#0000FF;}  /* Selected link   */
 
 
 /* links in page */
-a.nav {font-weight: bold;}
-a.nav:link, a.nav:visited {color: #AA0000;} /*dark_red */
-a.nav:hover {color: #604830; text-decoration: none;}    /*Chooclate Brown*/
+a {color:#FF0000;}         /* Unvisited link  */
+a:visited {color:#00FF00;} /* Visited link    */
+a:hover {color:#FF00FF;}   /* Mouse over link */
+a:active {color:#0000FF;}  /* Selected link   */
 
 @media(max-width: 767px)
 {

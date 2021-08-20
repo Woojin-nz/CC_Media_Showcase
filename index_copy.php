@@ -38,9 +38,12 @@
     <div class="wrapper">
     
 
+    <div class="logo">
+                <a href="index.php"><img class="responsive" src="images/background_UNESCO.png" alt="s"  /></a>
+            </div>
 
             <div class="top-title">
-                <h2><a href="index.php">World Heritage Sites</a></h2>
+                <h2>World Heritage Sites</h2>
             </div>
 
         <div class="header">
@@ -50,13 +53,26 @@
 
             <div class="menu-content">
                 <ul>
-                    <li><a class="nav" href="index.php?page=africa">Africa</a></li>
-                    <li><a class="nav" href="index.php?page=asia">Asia</a></li>
-                    <li><a class="nav" href="#">Europe</a></li>
-                    <li><a class="nav" href="#">North America</a></li>
-                    <li><a class="nav" href="#">Oceania</a></li>
-                    <li><a class="nav" href="#">South America</a></li>
-        
+                    <li><a class="nav" href='index.php'>Home</a></li>
+                    <li><a class="nav" href='#'>Random</a></li>
+                    <li><a class="nav dropbtn" href='#'>Gallery <i class="fa fa-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a class="nav" href="index.php?page=africa">Africa</a></li>
+                            <li><a class="nav" href="index.php?page=asia">Asia</a></li>
+                            <li><a class="nav" href="#">Europe</a></li>
+                            <li><a class="nav" href="#">North America</a></li>
+                            <li><a class="nav" href="#">Oceania</a></li>
+                            <li><a class="nav" href="#">South America</a></li>
+
+                        
+                        </ul>
+                    
+                    
+                    </li>
+                    <li><a class="nav" href='index.php?page=links'>Links</a></li>
+                    <li><a class="nav" href='#'>UNESCO</a></li>
+                    <li><a class="nav" href='#'>Contact</a></li>
+
                 </ul>
 
             </div>
@@ -76,15 +92,8 @@
        ?>
        
 
-        <div class="footer">
-            <div class="menu-footer"></div>
-            <a class="nav" href='index.php?page=links'>Links</a>
-            <a class="nav" href='#'>UNESCO</a>
-            <a class="nav" href='#'>Contact</a>
-            <br />
+        <div class="box footer">
             CC Woo-Jin Jeon 2021
-
-
         </div>    <!-- / footer -->
     
     </div>  <!-- / wrapper  -->
