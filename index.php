@@ -33,14 +33,14 @@
     
 </head>
     
-<body>
+<body class="entire-webpage">
     
     <div class="wrapper">
     
 
 
             <div class="top-title">
-                <h2><a href="index.php">World Heritage Sites</a></h2>
+                <h2><a class="text-decoration" href="index.php" style="color: white">World Heritage Sites</a></h2>
             </div>
 
         <div class="header">
@@ -50,12 +50,12 @@
 
             <div class="menu-content">
                 <ul>
-                    <li><a class="nav" href="index.php?page=africa">Africa</a></li>
-                    <li><a class="nav" href="index.php?page=asia">Asia</a></li>
-                    <li><a class="nav" href="#">Europe</a></li>
-                    <li><a class="nav" href="#">North America</a></li>
-                    <li><a class="nav" href="#">Oceania</a></li>
-                    <li><a class="nav" href="#">South America</a></li>
+                    <li><a class="text-decoration" href="index.php?page=africa" style="color: white">Africa</a></li>
+                    <li><a class="text-decoration" href="index.php?page=asia" style="color: white">Asia</a></li>
+                    <li><a class="text-decoration" href="#"style="color: white">Europe</a></li>
+                    <li><a class="text-decoration" href="#" style="color: white">North America</a></li>
+                    <li><a class="text-decoration" href="#" style="color: white">Oceania</a></li>
+                    <li><a class="text-decoration" href="#" style="color: white">South America</a></li>
         
                 </ul>
 
@@ -77,13 +77,13 @@
        
 
         <div class="footer">
-            <div class="menu-footer"></div>
-            <a class="nav" href='index.php?page=links'>Links</a>
-            <a class="nav" href='#'>UNESCO</a>
-            <a class="nav" href='#'>Contact</a>
-            <br />
-            CC Woo-Jin Jeon 2021
-
+            <div class="menu-footer">
+            <a class="text-decoration" href='index.php?page=CC' style="color: white">Creative Commons</a>     
+            <a class="text-decoration" href='index.php?page=links' style="color: white">Links</a>
+            <a class="text-decoration" href='#' style="color: white">UNESCO</a>
+            <a class="text-decoration" href='#' style="color: white">Contact</a>
+            <p>CC Woo-Jin Jeon 2021</p>
+            </div>
 
         </div>    <!-- / footer -->
     

@@ -3,7 +3,7 @@ body {
     padding: 50px;
     color: #000;
     font-family: 'Ubuntu', sans-serif;
-    background-color: #C4EBF6;
+    background-color: #121212;
 }
 
 
@@ -16,7 +16,7 @@ body {
     grid-template-areas: 
         "top-title logo header"
         "main main main"
-        "footer footer footer";
+        "blank another-blank footer";
         grid-gap: 0px;
     
     padding: 0;
@@ -50,14 +50,11 @@ body {
 
 .main {
     grid-area: main;
-    background-color: rgba(255,255,255,.5);  /* very pale grey */
-    border: solid 1px #CCC;
+    
 }
-
 
 .footer {
     grid-area: footer;
-    
     text-align: right;
 }
 
@@ -77,6 +74,10 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'Ubuntu', sans-serif;
+    color:white;
+}
+p{
+   color:white; 
 }
 
 /* Responsive image rules */
@@ -92,6 +93,10 @@ h1, h2, h3, h4 {
 
 }
 
+.text-decoration{
+    text-decoration: none;
+}
+
 ul.text {
     list-style: disc;
     display: list-item;
@@ -100,26 +105,19 @@ ul.text {
 }
 
 /* Navigation Links */
-a {color:#FF0000;}         /* Unvisited link  */
-a:visited {color:#00FF00;} /* Visited link    */
-a:hover {color:#FF00FF;}   /* Mouse over link */
-a:active {color:#0000FF;}  /* Selected link   */
+a:link {color:black;}         /* Unvisited link  */
+a:visited {color:black;} /* Visited link    */
+a:hover {text-decoration: underline;}   /* Mouse over link */
 
 
-/* links in page */
-a {color:#FF0000;}         /* Unvisited link  */
-a:visited {color:#00FF00;} /* Visited link    */
-a:hover {color:#FF00FF;}   /* Mouse over link */
-a:active {color:#0000FF;}  /* Selected link   */
-
-@media(max-width: 767px)
+@media(max-width: 1342px)
 {
     .wrapper{
         display:grid;
         grid-template-columns: 100px 1fr;
         grid-template-rows: auto;
         grid-template-areas: 
-            "logo top-title "
+            "top-title logo header "
             "header header"
             "main main"
             "footer footer";

@@ -13,12 +13,14 @@ ul, .dropdown{
 ul li {
     width: 100%;
     position: relative;
+    color: white;
 }
 
 li a {
     text-decoration: none;
     padding: 10px;
     display: block;
+    color:white;
 }
 
 .dropdown {
@@ -39,9 +41,12 @@ ul li:hover .dropdown{
 
 .menu-header {
     display:block;
+    color: white;
 }
 
-
+.entire-webpage{
+    zoom: 175%;
+}
 .menu-footer{
     display: grid;
     width: inherit;
@@ -52,7 +57,7 @@ ul li:hover .dropdown{
     display: none;
 }
 
-@media(max-width: 767px){
+@media(max-width: 1342px){
 
     ul{
         display:table;
@@ -91,9 +96,9 @@ ul li:hover .dropdown{
         }
 
         .fa-bars {
-            color: black;
+            color: white;
             display: inline;
-            border: 1px solid rgb(20, 20, 22);
+            border: 1px solid white;
             padding: 5px 10px;
             border-radius: 3px;
             position: absolute;
