@@ -33,7 +33,7 @@
     
 </head>
     
-<body class="entire-webpage">
+<body>
     
     <div class="wrapper">
     

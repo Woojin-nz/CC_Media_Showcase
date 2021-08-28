@@ -44,9 +44,6 @@ ul li:hover .dropdown{
     color: white;
 }
 
-.entire-webpage{
-    zoom: 175%;
-}
 .menu-footer{
     display: grid;
     width: inherit;
