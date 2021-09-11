@@ -54,7 +54,7 @@ ul li:hover .dropdown{
     display: none;
 }
 
-@media(max-width: 1342px){
+@media(max-width: 1000px){
 
     ul{
         display:table;

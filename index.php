@@ -52,7 +52,7 @@
                 <ul>
                     <li><a class="text-decoration" href="index.php?page=africa" style="color: white">Africa</a></li>
                     <li><a class="text-decoration" href="index.php?page=asia" style="color: white">Asia</a></li>
-                    <li><a class="text-decoration" href="#"style="color: white">Europe</a></li>
+                    <li><a class="text-decoration" href="index.php?page=europe"style="color: white">Europe</a></li>
                     <li><a class="text-decoration" href="#" style="color: white">North America</a></li>
                     <li><a class="text-decoration" href="#" style="color: white">Oceania</a></li>
                     <li><a class="text-decoration" href="#" style="color: white">South America</a></li>
