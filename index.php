@@ -40,7 +40,7 @@
 
 
             <div class="top-title">
-                <h2><a class="text-decoration" href="index.php" style="color: white">World Heritage Sites</a></h2>
+                <h1><a class="text-decoration" href="index.php" style="color: white">World Heritage Sites</a></h1>
             </div>
 
         <div class="header">
@@ -50,12 +50,12 @@
 
             <div class="menu-content">
                 <ul>
-                    <li><a class="text-decoration" href="index.php?page=africa" style="color: white">Africa</a></li>
-                    <li><a class="text-decoration" href="index.php?page=asia" style="color: white">Asia</a></li>
-                    <li><a class="text-decoration" href="index.php?page=europe"style="color: white">Europe</a></li>
-                    <li><a class="text-decoration" href="#" style="color: white">North America</a></li>
-                    <li><a class="text-decoration" href="#" style="color: white">Oceania</a></li>
-                    <li><a class="text-decoration" href="#" style="color: white">South America</a></li>
+                    <li><a class="menu" href="index.php?page=africa" style="color: white">Africa</a></li>
+                    <li><a class="menu" href="index.php?page=asia" style="color: white">Asia</a></li>
+                    <li><a class="menu" href="index.php?page=europe"style="color: white">Europe</a></li>
+                    <li><a class="menu" href="#" style="color: white">North America</a></li>
+                    <li><a class="menu" href="#" style="color: white">Oceania</a></li>
+                    <li><a class="menu" href="#" style="color: white">South America</a></li>
         
                 </ul>
 

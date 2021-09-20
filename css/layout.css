@@ -15,9 +15,10 @@ body {
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: auto;
     grid-template-areas: 
-        "top-title logo header"
-        "main main main"
-        "blank another-blank footer";
+        "top-title top-title header header"
+        "top-title top-title header header"
+        "main main main main "
+        "footer footer footer footer";
         grid-gap: 0px;
     
     padding: 0;
@@ -38,16 +39,14 @@ body {
 .top-title {
     grid-area: top-title;
     padding: 0px;
-    margin-bottom: 0;
+    margin-right: auto;
 }
 
 .header{
     grid-area: header;
-    display: grid;
     width: 100%;
     align-items: center;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    margin-top: 50px;
 }
 
 .main {
@@ -57,7 +56,7 @@ body {
 
 .footer {
     grid-area: footer;
-    text-align: right;
+    text-align: center;
 }
 
 /* ---- End of grid setup ---- */
@@ -98,6 +97,9 @@ p{
 .text-decoration{
     text-decoration: none;
 }
+.menu{
+
+}
 
 ul.text {
     list-style: disc;
@@ -112,16 +114,17 @@ a:visited {color:black;} /* Visited link    */
 a:hover {text-decoration: underline;}   /* Mouse over link */
 
 
-@media(max-width: 1000px)
+@media(max-width: 1500px)
 {
     .wrapper{
         display: grid;
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: auto;
     grid-template-areas: 
-        "top-title logo header"
-        "main main main"
-        "blank another-blank footer";
+        "top-title top-title header header"
+        "top-title top-title header header"
+        "main main main main "
+        "footer footer footer footer";
         grid-gap: 0px;
     
     padding: 0;

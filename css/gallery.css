@@ -1,5 +1,7 @@
 div.gallery {
   border: 1px solid #ccc;
+  /* Allows me so that the image border fits perfectly. */
+  line-height: 5px;
 }
 
 div.gallery:hover {
@@ -27,14 +29,14 @@ div.desc {
   padding-bottom: 10px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1500px) {
   .responsive-gallery {
     width: 49.99999%;
     margin: 6px 0;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
   .responsive-gallery {
     width: 100%;
   }
