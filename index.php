@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/simple-lightbox.css"> 
     <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/form.css" />
 
 
     <!-- Edit the name of your style sheet - 'foo' is not a valid name!! -->
@@ -53,9 +54,9 @@
                     <li><a class="menu" href="index.php?page=africa" style="color: white">Africa</a></li>
                     <li><a class="menu" href="index.php?page=asia" style="color: white">Asia</a></li>
                     <li><a class="menu" href="index.php?page=europe"style="color: white">Europe</a></li>
-                    <li><a class="menu" href="#" style="color: white">North America</a></li>
-                    <li><a class="menu" href="#" style="color: white">Oceania</a></li>
-                    <li><a class="menu" href="#" style="color: white">South America</a></li>
+                    <li><a class="menu" href="index.php?page=northamerica" style="color: white">North America</a></li>
+                    <li><a class="menu" href="index.php?page=oceania" style="color: white">Oceania</a></li>
+                    <li><a class="menu" href="index.php?page=southamerica" style="color: white">South America</a></li>
         
                 </ul>
 
@@ -80,8 +81,8 @@
             <div class="menu-footer">
             <a class="text-decoration" href='index.php?page=CC' style="color: white">Creative Commons</a>     
             <a class="text-decoration" href='index.php?page=links' style="color: white">Links</a>
-            <a class="text-decoration" href='#' style="color: white">UNESCO</a>
-            <a class="text-decoration" href='#' style="color: white">Contact</a>
+            <a class="text-decoration" href='index.php?page=unesco' style="color: white">UNESCO</a>
+            <a class="text-decoration" href='index.php?page=contact' style="color: white">Contact</a>
             <p>CC Woo-Jin Jeon 2021</p>
             </div>
 

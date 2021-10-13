@@ -29,7 +29,7 @@ div.desc {
   padding-bottom: 10px;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1200px) {
   .responsive-gallery {
     width: 49.99999%;
     margin: 6px 0;
