@@ -15,3 +15,8 @@
             <p>
                 Hope you enjoy!
             </p>
+
+            <p style="color: red;">
+                Please note the continents "Africa","Asia" and "Europe"  have large image sizes. (upto 600 KB on one image.) <br/>
+                The other continents have image sizes up to 200 KB per image. <br/>Sorry if this causes any issues.
+            </p>
