@@ -41,7 +41,7 @@
 
 
             <div class="top-title">
-                <h1><a class="text-decoration" href="index.php" style="color: white">World Heritage Sites</a></h1>
+                <h1><a class="title-decoration" href="index.php" style="color: white">World Heritage Sites</a></h1>
             </div>
 
         <div class="header">
@@ -51,12 +51,12 @@
 
             <div class="menu-content">
                 <ul>
-                    <li><a class="menu" href="index.php?page=africa" style="color: white">Africa</a></li>
-                    <li><a class="menu" href="index.php?page=asia" style="color: white">Asia</a></li>
-                    <li><a class="menu" href="index.php?page=europe"style="color: white">Europe</a></li>
-                    <li><a class="menu" href="index.php?page=northamerica" style="color: white">North America</a></li>
-                    <li><a class="menu" href="index.php?page=oceania" style="color: white">Oceania</a></li>
-                    <li><a class="menu" href="index.php?page=southamerica" style="color: white">South America</a></li>
+                    <li><a class="text-decoration" href="index.php?page=africa">Africa</a></li>
+                    <li><a class="text-decoration" href="index.php?page=asia">Asia</a></li>
+                    <li><a class="text-decoration" href="index.php?page=europe">Europe</a></li>
+                    <li><a class="text-decoration" href="index.php?page=northamerica" >North America</a></li>
+                    <li><a class="text-decoration" href="index.php?page=oceania" >Oceania</a></li>
+                    <li><a class="text-decoration" href="index.php?page=southamerica" >South America</a></li>
         
                 </ul>
 
@@ -79,10 +79,14 @@
 
         <div class="footer">
             <div class="menu-footer">
-            <a class="text-decoration" href='index.php?page=CC' style="color: white">Creative Commons</a>     
-            <a class="text-decoration" href='index.php?page=links' style="color: white">Links</a>
-            <a class="text-decoration" href='index.php?page=unesco' style="color: white">UNESCO</a>
-            <a class="text-decoration" href='index.php?page=contact' style="color: white">Contact</a>
+            <a class="text-decoration" href='index.php?page=CC' >Creative Commons</a>
+            <br />
+            <a class="text-decoration" href='index.php?page=links' > Links</a> 
+            <br />
+            <a class="text-decoration" href='index.php?page=unesco' > UNESCO</a> 
+            <br />
+            <a class="text-decoration" href='index.php?page=contact' s>Contact</a>
+            <br />
             <p>CC Woo-Jin Jeon 2021</p>
             </div>
 

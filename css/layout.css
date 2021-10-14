@@ -4,7 +4,7 @@ body {
     color: #000;
     font-family: 'Ubuntu', sans-serif;
     background-color: #121212;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 
@@ -56,7 +56,7 @@ body {
 
 .footer {
     grid-area: footer;
-    text-align: center;
+    text-align: right;
 }
 
 /* ---- End of grid setup ---- */
@@ -95,10 +95,15 @@ p{
 }
 
 .text-decoration{
+    color: grey;
     text-decoration: none;
 }
-.menu{
+.text-decoration:hover{
+    color: orange;
+}
 
+.title-decoration{
+    text-decoration: none;
 }
 
 ul.text {
@@ -109,8 +114,8 @@ ul.text {
 }
 
 /* Navigation Links */
-a:link {color:black;}         /* Unvisited link  */
-a:visited {color:black;} /* Visited link    */
+a:link {color:rgb(197, 197, 197);}         /* Unvisited link  */
+a:visited {color:rgb(197, 197, 197);} /* Visited link    */
 a:hover {text-decoration: underline;}   /* Mouse over link */
 
 
@@ -130,7 +135,6 @@ a:hover {text-decoration: underline;}   /* Mouse over link */
     padding: 0;
     margin-bottom: 0;
     }
-
 }
 
 

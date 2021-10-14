@@ -6,6 +6,7 @@ textarea, input{
     border-radius: 4px;
     background-color: #f8f8f8;
     padding:10px;
+    width: 90%;
 }
 
 .form-text{
@@ -21,14 +22,17 @@ textarea{
 }
 
 button {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
     padding: 20px;
     transition-duration: 0.4s;
-    background-color: white;
+    background-color: rgb(250, 206, 125);
     border-radius: 5px;
     margin:auto;
-    width: auto;
+    width: 90%;
+    height: auto;
 }
 button:hover{
-    background-color: orange;
+    background-color: rgb(243, 181, 66);
     color: white;
 }

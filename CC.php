@@ -9,7 +9,7 @@ Creative Commons gives content creators and consumers a way to share works witho
 The goal of creative commons is to "overcome legal obstacles to the sharing of knowledge and creativity to address the world’s pressing challenges". 
 			</p>
 <p>
-	You can learn more about <a href="https://creativecommons.org/" style="color: white">Creative Commons</a> at the preceding link.
+	You can learn more about <a class="text-decoration"href="https://creativecommons.org/" style="color: white">Creative Commons</a> at the preceding link.
 </p>
 
 <p>
